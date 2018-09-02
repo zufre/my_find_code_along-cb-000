@@ -5,7 +5,7 @@ def my_find(array)
   while i < array.length do
     if yield(array[i])
     return array[i]
-  end
+    end
     i = i + 1
   end
 end
