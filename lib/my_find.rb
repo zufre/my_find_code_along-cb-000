@@ -2,7 +2,7 @@ require 'pry'
 
 def my_find(array)
   i = 0
-  while i < array.length
+  while i < array.length do
     if yield(array[i])
     return array[i]
   end
